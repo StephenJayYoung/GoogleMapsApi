@@ -15,13 +15,13 @@ function initialize()
 {
 var mapProp = {
   center:x,
-  zoom:4,
+  zoom:5,
   mapTypeId:google.maps.MapTypeId.ROADMAP
   };
   
 var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
-var myTrip=[Vik,Hofn,london];
+var myTrip=[Vik,Hofn,Hveravellir];
 var flightPath=new google.maps.Polyline({
   path:myTrip,
   strokeColor:"#0000FF",
