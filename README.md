@@ -1,1 +1,1 @@
-# GoogleMapsApi
+#This is a simple project for figuring out the Google Maps API for future use in Iceland site
